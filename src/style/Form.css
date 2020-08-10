@@ -1,0 +1,28 @@
+.form-signin{
+    display: flex;
+    flex-direction: column;
+    border: solid #bbdfc5 1px;
+    padding: 5px;
+}
+
+.textbox, .numericUpDown{
+    background-color: transparent;
+    border: solid #bbdfc5 1px;
+    font-size: 20px;
+    margin: 7px 0;
+    color: #bbdfc5;
+}
+
+.button{
+    background-color: #bbdfc5;
+    border: none;
+    font-size: 20px;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.form-error{
+    color: rgba(255, 0, 0, 0.651);
+}
