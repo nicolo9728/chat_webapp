@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1b1f3b;
+}
+
+h2, a, h1, p{
+    color: #bbdfc5;
+}
+
