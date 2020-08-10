@@ -23,7 +23,7 @@ class App extends Component {
         
         return (
             <div>
-                <Header />
+                <Header username={this.state.username} room={this.state.room}/>
                 <Router>
                     <Route path="/" exact component={Join} />
                     <Route path="/Chat" component={Chat} />
